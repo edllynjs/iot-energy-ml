@@ -1,11 +1,27 @@
-pandas>=1.5
-numpy>=1.24
-scikit-learn>=1.2
-xgboost>=1.7
-imbalanced-learn>=0.10
-matplotlib>=3.6
-seaborn>=0.12
-joblib
-tensorflow>=2.12  
-tqdm
-polar
+# ====== Core Python ======
+pathlib
+
+# ====== Data Handling ======
+pandas==2.2.2
+numpy==1.26.4
+
+# ====== Progress Bar ======
+tqdm==4.66.5
+
+# ====== Joblib for Caching/Serialization ======
+joblib==1.4.2
+
+# ====== Machine Learning (Scikit-learn) ======
+scikit-learn==1.5.2
+
+# ====== Imbalanced Data Handling ======
+imbalanced-learn==0.12.3
+
+# ====== Gradient Boosting (XGBoost) ======
+xgboost==2.1.1
+
+# ====== Deep Learning (TensorFlow/Keras) ======
+tensorflow==2.17.0
+
+# ====== Command Line Parsing ======
+argparse
