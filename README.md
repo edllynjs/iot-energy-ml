@@ -73,7 +73,7 @@ conda activate pipeline
 
 #### Install Pip dependencies
 
-For the `multi-stage pipeline` environment, use the following command:
+For the `analytical pipeline` environment, use the following command:
 ```shell
 pip install -r requirements.txt
 ```
@@ -94,7 +94,7 @@ python pipeline_data.py
 ```
 
 ```bash
-python -m multistage_pipeline.pipeline \
+python -m model_training.py \
     --attack ALL \
     --model ALL \
 ```
